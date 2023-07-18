@@ -696,7 +696,6 @@ def main():
                 for i in range(1,100):
                     if score.score >= i*10:
                         pluses.add(BeamPlus(bird))
-                        
         
             if event.type == pg.KEYDOWN and event.key == pg.K_SPACE:
                 beams.add(Beam(s_bird)) 
